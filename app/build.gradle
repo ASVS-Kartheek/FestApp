@@ -34,7 +34,9 @@ dependencies {
     implementation "com.google.android.material:material:$rootProject.materialVersion"
 
     // Local unit tests
-    testImplementation 'junit:junit:4.12'
-    androidTestImplementation 'com.android.support.test:runner:1.0.2'
-    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+    testImplementation "junit:junit:$rootProject.junitVersion"
+
+    // Instrumentation tests
+    androidTestImplementation "androidx.test.espresso:espresso-core:$rootProject.espressoVersion"
+    androidTestImplementation "androidx.test:runner:$rootProject.runnerVersion"
 }
