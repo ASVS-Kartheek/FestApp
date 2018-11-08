@@ -10,19 +10,19 @@ class MainActivity : AppCompatActivity() {
     private val mOnNavigationItemSelectedListener = BottomNavigationView.OnNavigationItemSelectedListener { item ->
         when (item.itemId) {
             R.id.navigation_info -> {
-                message.setText(R.string.information)
+                message.setText(R.string.title_information)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_schedule -> {
-                message.setText(R.string.schedule)
+                message.setText(R.string.title_schedule)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_feed -> {
-                message.setText(R.string.feed)
+                message.setText(R.string.title_feed)
                 return@OnNavigationItemSelectedListener true
             }
             R.id.navigation_map -> {
-                message.setText(R.string.map)
+                message.setText(R.string.title_map)
                 return@OnNavigationItemSelectedListener true
             }
         }
