@@ -16,4 +16,27 @@
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>
     </style>
+    <style name="Widget.Fest.BottomNav"
+           parent="@style/Widget.MaterialComponents.BottomNavigationView.Colored">
+        <item name="itemIconTint">@color/bottom_nav_item</item>
+        <item name="itemTextAppearanceActive">@style/TextAppearance.Fest.BottomNavigationView.Active</item>
+        <item name="itemTextAppearanceInactive">@style/TextAppearance.Fest.BottomNavigationView</item>
+        <item name="labelVisibilityMode">selected</item>
+        <item name="android:theme">@style/ThemeOverlay.MaterialComponents.Dark</item>
+    </style>
+    <style name="TextAppearance.Fest.BottomNavigationView.Active">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="TextAppearance.Fest.BottomNavigationView"
+           parent="@style/TextAppearance.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:fontFamily">@font/google_sans</item>
+        <item name="android:textColor">@color/bottom_nav_item</item>
+    </style>
+    <style name="TextAppearance.MaterialComponents.BottomNavigationView" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:textColor">@color/mtrl_bottom_nav_item_tint</item>
+    </style>
+    <style name="TextAppearance.MaterialComponents.BottomNavigationView.Colored">
+        <item name="android:textColor">@color/mtrl_bottom_nav_colored_item_tint</item>
+    </style>
 </resources>
