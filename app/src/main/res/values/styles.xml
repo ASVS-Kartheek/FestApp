@@ -9,5 +9,11 @@
         <item name="android:statusBarColor">@color/status_bar</item>
         <item name="android:navigationBarColor">@color/indigo_dark</item>
         <item name="android:textColorTertiary">@color/text_color_tertiary</item>
+        <item name="android:fontFamily">@font/google_sans</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
     </style>
 </resources>

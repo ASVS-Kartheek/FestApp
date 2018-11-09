@@ -10,7 +10,8 @@
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivity"/>
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar"/>
 
 
         <!-- This activity alias lets us change the main entry point without breaking launcher
